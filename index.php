@@ -8,5 +8,10 @@
 </head>
 <body>
     <h2> Form Validation </h2>
+    <?php
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+?>
 </body>
 </html>

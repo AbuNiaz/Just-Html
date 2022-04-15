@@ -23,5 +23,12 @@ myTest();
 // using x outside the function will generate an error
 echo "<p>Variable x outside function is: $x</p>";
 ?>
+<?php
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+}
+?>
 </body>
 </html>
